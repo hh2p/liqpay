@@ -1,9 +1,9 @@
 {
-  "name" : "hh2p/liqpay",
+  "name" : "hh2p/liqpay-bundle",
   "description" : "Symfony4 liqpay bundle",
   "version" : "0.0.4-dev",
   "type" : "symfony-bundle",
-  "homepage": "https://github.com/hh2p/liqpay",
+  "homepage": "https://github.com/hh2p/liqpay-bundle",
   "license" : "MIT",
   "keywords" : ["pay", "liqpay bundle"],
   "authors" : [{
