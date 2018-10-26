@@ -1,7 +1,7 @@
 {
   "name" : "hh2p/liqpay",
   "description" : "Symfony4 liqpay bundle",
-  "version" : "0.0.4",
+  "version" : "0.0.4-dev",
   "type" : "symfony-bundle",
   "homepage": "https://github.com/hh2p/liqpay",
   "license" : "MIT",
@@ -12,7 +12,7 @@
   }],
   "require" : {
     "php": ">=7.0.0",
-    "symfony/symfony": ">=4.*"
+    "symfony/symfony": ">=4.0"
   },
   "autoload" : {
     "psr-4" : { "hh2p\\liqpay\\" : "" }
