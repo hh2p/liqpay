@@ -1,0 +1,25 @@
+{
+  "name" : "hh2p/liqpay",
+  "description" : "Symfony4 liqpay bundle",
+  "version" : "0.0.2",
+  "type" : "symfony-bundle",
+  "homepage": "https://github.com/hh2p/liqpay",
+  "license" : "MIT",
+  "keywords" : ["pay", "liqpay bundle"],
+  "authors" : [{
+    "name" : "Oleksandr Sudak",
+    "email" : "sswebdis@gmail.com"
+  }],
+  "require" : {
+    "php": ">=7.0.0",
+    "symfony/symfony": ">=4.1"
+  },
+  "autoload" : {
+    "psr-4" : { "hh2p\\liqpay\\" : "" }
+  },
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "0.0.x-dev"
+    }
+  }
+}
