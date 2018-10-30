@@ -14,7 +14,7 @@
     "php": ">=7.0.0"
   },
   "autoload" : {
-    "psr-4" : { "hh2p\\Bundle\\LiqpayBundle\\" : "" }
+    "psr-4" : { "HH2P\\Bundle\\LiqpayBundle\\" : "" }
   },
   "extra" : {
     "branch-alias" : {
