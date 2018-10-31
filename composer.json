@@ -11,7 +11,8 @@
     "email" : "sswebdis@gmail.com"
   }],
   "require" : {
-    "php": ">=7.0.0"
+    "php": ">=7.0.0",
+    "liqpay/liqpay": "v1.2.3"
   },
   "autoload" : {
     "psr-4" : { "HH2P\\Bundle\\LiqpayBundle\\" : "" }
