@@ -1,0 +1,59 @@
+HH2P\LiqpayBundle\Entity\Invoice:
+  type: entity
+  table: hh2p_liqpay_invoce
+  id:
+    id:
+      type: integer
+      id: true
+      generator:
+        strategy: AUTO
+  fields:
+    phone:
+      type: float
+      length: 13
+    action:
+      type: string
+      length: 10
+      nullable: false
+    amount:
+      type: float
+      length: 8
+    currency:
+      type: string
+      length: 3
+      nullable: false
+    description:
+      type: string
+      length: 255
+      nullable: true
+    orderId:
+      type: string
+      length: 255
+      nullable: false
+    expired_date:
+      type: datetime
+      nullable: true
+    language:
+      type: string
+      length: 2
+      nullable: false
+    paytypes:
+      type: string
+      length: 11
+      nullable: false
+    result_url:
+      type: string
+      length: 510
+      nullable: false
+    sandbox:
+      type: string
+      length: 1
+      nullable: true
+    server_url:
+      type: string
+      length: 510
+      nullable: false
+    verifycode:
+      type: string
+      length: 1
+      nullable: true
