@@ -1,6 +1,6 @@
 <?php
 
-namespace HH2P\ILiqPlugin\Entity;
+namespace HH2P\LiqPlugin\Entity;
 
 class Invoice
 {
