@@ -1,0 +1,4 @@
+hh2p_liqpaybundle_pay_frame:
+  path: /pay/
+  defaults:
+    _controller: HH2P\Bundle\LiqpayBundle\Controller\Payment:payAction
