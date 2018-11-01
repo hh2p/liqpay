@@ -1,6 +1,6 @@
 <?php
 
-namespace HH2P\LiqPlugin\Entity;
+namespace HH2P\LiqpayBundle\Entity;
 
 class Invoice
 {
