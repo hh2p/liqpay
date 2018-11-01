@@ -1,4 +1,4 @@
-HH2P\LiqpayBundle\Entity\Invoice:
+HH2P\Bundle\LiqpayBundle\Entity\Invoice:
   type: entity
   table: hh2p_liqpay_invoce
   id:
