@@ -25,7 +25,7 @@ class Payment extends Controller
     /**
      * @return Invoice
      */
-    protected function createInvoice(): Invoice
+    public function createInvoice(): Invoice
     {
         $invoice = new Invoice();
         $invoice->setAction('pay');
