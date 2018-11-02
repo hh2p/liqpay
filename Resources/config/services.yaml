@@ -5,3 +5,6 @@ services:
     arguments:
       - '%env(liqpay_public_key)%'
       - '%env(liqpay_private_key)%'
+  hh2p.liqpay.payment:
+    class: HH2P\Bundle\LiqpayBundle\Controller\Payment
+    public: true
