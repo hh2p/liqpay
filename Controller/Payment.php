@@ -67,7 +67,7 @@ class Payment extends Controller
         ]);
         return $html;
     }
-    private function getPayButtonParams(Invoice $invoice):array
+    public function getPayButtonParams(Invoice $invoice):array
     {
         /* @var $liqpay_sdk LiqPay */
         $liqpay_sdk = $this->container->get('hh2p.liqpay.sdk');
