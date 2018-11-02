@@ -1,0 +1,7 @@
+services:
+  hh2p.liqpay.sdk:
+    class: HH2P\Bundle\LiqpayBundle\Service\LiqPay
+    public: true
+    arguments:
+      - '%env(liqpay_public_key)%'
+      - '%env(liqpay_private_key)%'

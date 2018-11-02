@@ -11,6 +11,7 @@
 
 namespace HH2P\Bundle\LiqpayBundle;
 
+use HH2P\Bundle\LiqpayBundle\DependencyInjection\LiqpayExtension;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 
@@ -23,5 +24,10 @@ class LiqpayBundle extends Bundle
     {
         parent::build($container);
 
+    }
+
+    public function getContainerExtension()
+    {
+        return new LiqpayExtension();
     }
 }

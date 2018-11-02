@@ -2,3 +2,7 @@ hh2p_liqpaybundle_pay_frame:
   path: /pay/
   defaults:
     _controller: HH2P\Bundle\LiqpayBundle\Controller\Payment:payAction
+hh2p_liqpaybundle_pay_redirect:
+  path: /pay-redirect/
+  defaults:
+    _controller: HH2P\Bundle\LiqpayBundle\Controller\Payment:payRedirectAction
